@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+        <item android:title="类别">
+            <menu>
+                <item
+                    android:icon="@mipmap/ic_favorite"
+                    android:id="@+id/menu_news"
+                    android:title="趣闻" />
+            </menu>
+        </item>
+        <item android:title="设置">
+            <menu>
+            <item
+                android:icon="@mipmap/mine_set_ico"
+                android:id="@+id/menu_set"
+                android:title="设置中心" />
+        </menu>
+        </item>
+    </group>
+</menu>
